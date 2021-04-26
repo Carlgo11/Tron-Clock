@@ -6,7 +6,7 @@ function startTime() {
     const date = new Date();
 
     const y = parse(date.getFullYear().toString().slice(2, 4));
-    const m = parse(date.getMonth());
+    const m = parse(date.getMonth()+1);
     const d = parse(date.getDate());
     const h = parse(date.getHours());
     const i = parse(date.getMinutes());
