@@ -3,12 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <title>Tron Clock</title>
-    <script src="main.js"></script>
-    <link rel="stylesheet" href="main.css">
+    <style>
+        @font-face {
+            font-family: 'digital-7';
+            src: url("digital-7.ttf");
+        }
+
+        body {
+            color: #96c6a9;
+            background-color: #111;
+            font-size: 50px;
+            font-family: "digital-7", monospace;
+        }
+
+        .center {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            width: 278px;
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+    </style>
 </head>
 <body>
-<div class="center noselect">
+<div class="center">
     <p id="clock"></p>
 </div>
+<script type="text/javascript">
+    document.addEventListener("DOMContentLoaded", function () {
+        startTime();
+    });
+
+    function startTime() {
+        const date = new Date();
+
+        const y = parse(date.getFullYear().toString().slice(2, 4));
+        const m = parse(date.getMonth() + 1);
+        const d = parse(date.getDate());
+        const h = parse(date.getHours());
+        const i = parse(date.getMinutes());
+        const s = parse(date.getSeconds());
+
+        document.getElementById('clock').innerHTML = y + ":" + m + ":" + d + ":" + h + ":" + i + ":" + s;
+        // Update every 0.5 seconds (500 ms)
+        setTimeout(startTime, 500);
+    }
+
+    function parse(value) {
+        // Add a leading zero to numbers less than ten.
+        return value.toString().padStart(2, '0');
+    }
+</script>
 </body>
 </html>
