@@ -1,40 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <title>Tron Clock</title>
     <style>
         @font-face {
-            font-family: 'digital-7';
-            src: url("digital-7.ttf");
+            font-family: "Texas Instruments TI-84 series Regular";
+            src: url("texas_instruments_ti84_series.woff") format("woff"),url("texas_instruments_ti84_series.ttf") format("truetype");
+            font-weight: normal;
+            font-style: normal;
         }
 
         body {
             color: #96c6a9;
             background-color: #111;
-            font-size: 50px;
-            font-family: "digital-7", monospace;
+            font-size: 3.25em;
+            letter-spacing: 0.16em;
+            font-family: "Texas Instruments TI-84 series Regular";
         }
 
         .center {
             position: absolute;
             left: 50%;
             top: 50%;
-            -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
-            width: 278px;
             -webkit-touch-callout: none;
             -webkit-user-select: none;
-            -moz-user-select: none;
-            -ms-user-select: none;
             user-select: none;
         }
     </style>
 </head>
 <body>
-<div class="center">
-    <p id="clock"></p>
-</div>
+<div class="center" id="clock"></div>
 <script type="text/javascript">
     document.addEventListener("DOMContentLoaded", function () {
         startTime();
@@ -42,17 +39,17 @@
 
     function startTime() {
         const date = new Date();
-
         const y = parse(date.getFullYear().toString().slice(2, 4));
         const m = parse(date.getMonth() + 1);
         const d = parse(date.getDate());
         const h = parse(date.getHours());
         const i = parse(date.getMinutes());
         const s = parse(date.getSeconds());
+        const ms = parse(date.getMilliseconds().toString().slice(1,3));
 
-        document.getElementById('clock').innerHTML = y + ":" + m + ":" + d + ":" + h + ":" + i + ":" + s;
+        document.getElementById('clock').innerHTML = y + ":" + m + ":" + d + ":" + h + ":" + i + ":" + s + ":" + ms;
         // Update every 0.5 seconds (500 ms)
-        setTimeout(startTime, 500);
+        setTimeout(startTime, 1);
     }
 
     function parse(value) {
