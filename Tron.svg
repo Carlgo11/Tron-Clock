@@ -1,0 +1,60 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!--
+Created for https://github.com/carlgo11/Tron-Clock/
+-->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+<metadata>
+Created by FontForge 20220308 at Thu Aug 11 02:29:07 2022
+ By Carl
+Copyright (c) 2022, Carlgo11 &#60;https://carlgo11.com/&#62;
+</metadata>
+<defs>
+<font id="Tron" horiz-adv-x="500" >
+  <font-face 
+    font-family="Tron"
+    font-weight="400"
+    font-stretch="normal"
+    units-per-em="700"
+    panose-1="2 0 5 9 0 0 0 0 0 0"
+    ascent="560"
+    descent="-140"
+    bbox="5 -135 495 555"
+    underline-thickness="35"
+    underline-position="-70"
+    unicode-range="U+0030-003A"
+  />
+    <missing-glyph />
+    <glyph glyph-name="zero" unicode="0" 
+d="M105 555h90v-90h-90v90zM205 555h90v-90h-90v90zM305 555h90v-90h-90v90zM5 455h90v-90h-90v90zM405 455h90v-90h-90v90zM5 355h90v-90h-90v90zM405 355h90v-90h-90v90zM5 255h90v-90h-90v90zM405 255h90v-90h-90v90zM5 155h90v-90h-90v90zM405 155h90v-90h-90v90zM5 55
+h90v-90h-90v90zM405 55h90v-90h-90v90zM105 -45h90v-90h-90v90zM205 -45h90v-90h-90v90zM305 -45h90v-90h-90v90z" />
+    <glyph glyph-name="one" unicode="1" 
+d="M205 555h90v-90h-90v90zM105 455h90v-90h-90v90zM205 455h90v-90h-90v90zM205 355h90v-90h-90v90zM205 255h90v-90h-90v90zM205 155h90v-90h-90v90zM205 55h90v-90h-90v90zM105 -45h90v-90h-90v90zM205 -45h90v-90h-90v90zM305 -45h90v-90h-90v90z" />
+    <glyph glyph-name="two" unicode="2" 
+d="M105 555h90v-90h-90v90zM205 555h90v-90h-90v90zM305 555h90v-90h-90v90zM5 455h90v-90h-90v90zM405 455h90v-90h-90v90zM405 355h90v-90h-90v90zM305 255h90v-90h-90v90zM205 155h90v-90h-90v90zM105 55h90v-90h-90v90zM5 -45h90v-90h-90v90zM105 -45h90v-90h-90v90z
+M205 -45h90v-90h-90v90zM305 -45h90v-90h-90v90zM405 -45h90v-90h-90v90z" />
+    <glyph glyph-name="three" unicode="3" 
+d="M5 555h90v-90h-90v90zM105 555h90v-90h-90v90zM205 555h90v-90h-90v90zM305 555h90v-90h-90v90zM405 555h90v-90h-90v90zM305 455h90v-90h-90v90zM205 355h90v-90h-90v90zM305 255h90v-90h-90v90zM405 155h90v-90h-90v90zM5 55h90v-90h-90v90zM405 55h90v-90h-90v90z
+M105 -45h90v-90h-90v90zM205 -45h90v-90h-90v90zM305 -45h90v-90h-90v90z" />
+    <glyph glyph-name="four" unicode="4" 
+d="M305 555h90v-90h-90v90zM205 455h90v-90h-90v90zM305 455h90v-90h-90v90zM105 355h90v-90h-90v90zM305 355h90v-90h-90v90zM5 255h90v-90h-90v90zM105 255h90v-90h-90v90zM205 255h90v-90h-90v90zM305 255h90v-90h-90v90zM405 255h90v-90h-90v90zM305 155h90v-90h-90v90z
+M305 55h90v-90h-90v90zM305 -45h90v-90h-90v90z" />
+    <glyph glyph-name="five" unicode="5" 
+d="M5 555h90v-90h-90v90zM105 555h90v-90h-90v90zM205 555h90v-90h-90v90zM305 555h90v-90h-90v90zM405 555h90v-90h-90v90zM5 455h90v-90h-90v90zM5 355h90v-90h-90v90zM105 355h90v-90h-90v90zM205 355h90v-90h-90v90zM305 355h90v-90h-90v90zM405 255h90v-90h-90v90z
+M405 155h90v-90h-90v90zM405 55h90v-90h-90v90zM105 -45h90v-90h-90v90zM205 -45h90v-90h-90v90zM305 -45h90v-90h-90v90z" />
+    <glyph glyph-name="six" unicode="6" 
+d="M205 555h90v-90h-90v90zM305 555h90v-90h-90v90zM105 455h90v-90h-90v90zM5 355h90v-90h-90v90zM5 255h90v-90h-90v90zM105 255h90v-90h-90v90zM205 255h90v-90h-90v90zM305 255h90v-90h-90v90zM5 155h90v-90h-90v90zM405 155h90v-90h-90v90zM5 55h90v-90h-90v90zM405 55
+h90v-90h-90v90zM105 -45h90v-90h-90v90zM205 -45h90v-90h-90v90zM305 -45h90v-90h-90v90z" />
+    <glyph glyph-name="seven" unicode="7" 
+d="M5 555h90v-90h-90v90zM105 555h90v-90h-90v90zM205 555h90v-90h-90v90zM305 555h90v-90h-90v90zM405 555h90v-90h-90v90zM405 455h90v-90h-90v90zM305 355h90v-90h-90v90zM205 255h90v-90h-90v90zM105 155h90v-90h-90v90zM105 55h90v-90h-90v90zM105 -45h90v-90h-90v90z
+" />
+    <glyph glyph-name="eight" unicode="8" 
+d="M105 555h90v-90h-90v90zM205 555h90v-90h-90v90zM305 555h90v-90h-90v90zM5 455h90v-90h-90v90zM405 455h90v-90h-90v90zM5 355h90v-90h-90v90zM405 355h90v-90h-90v90zM105 255h90v-90h-90v90zM205 255h90v-90h-90v90zM305 255h90v-90h-90v90zM5 155h90v-90h-90v90z
+M405 155h90v-90h-90v90zM5 55h90v-90h-90v90zM405 55h90v-90h-90v90zM105 -45h90v-90h-90v90zM205 -45h90v-90h-90v90zM305 -45h90v-90h-90v90z" />
+    <glyph glyph-name="nine" unicode="9" 
+d="M105 555h90v-90h-90v90zM205 555h90v-90h-90v90zM305 555h90v-90h-90v90zM5 455h90v-90h-90v90zM405 455h90v-90h-90v90zM5 355h90v-90h-90v90zM405 355h90v-90h-90v90zM105 255h90v-90h-90v90zM205 255h90v-90h-90v90zM305 255h90v-90h-90v90zM405 255h90v-90h-90v90z
+M405 155h90v-90h-90v90zM305 55h90v-90h-90v90zM105 -45h90v-90h-90v90zM205 -45h90v-90h-90v90z" />
+    <glyph glyph-name="colon" unicode=":" 
+d="M105 455h90v-90h-90v90zM205 455h90v-90h-90v90zM105 355h90v-90h-90v90zM205 355h90v-90h-90v90zM105 155h90v-90h-90v90zM205 155h90v-90h-90v90zM105 55h90v-90h-90v90zM205 55h90v-90h-90v90z" />
+  </font>
+</defs></svg>
