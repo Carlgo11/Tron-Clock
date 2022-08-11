@@ -5,8 +5,6 @@ Created for https://github.com/carlgo11/Tron-Clock/
 -->
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
 <metadata>
-Created by FontForge 20220308 at Thu Aug 11 02:29:07 2022
- By Carl
 Copyright (c) 2022, Carlgo11 &#60;https://carlgo11.com/&#62;
 </metadata>
 <defs>
@@ -26,8 +24,8 @@ Copyright (c) 2022, Carlgo11 &#60;https://carlgo11.com/&#62;
   />
     <missing-glyph />
     <glyph glyph-name="zero" unicode="0" 
-d="M105 555h90v-90h-90v90zM205 555h90v-90h-90v90zM305 555h90v-90h-90v90zM5 455h90v-90h-90v90zM405 455h90v-90h-90v90zM5 355h90v-90h-90v90zM405 355h90v-90h-90v90zM5 255h90v-90h-90v90zM405 255h90v-90h-90v90zM5 155h90v-90h-90v90zM405 155h90v-90h-90v90zM5 55
-h90v-90h-90v90zM405 55h90v-90h-90v90zM105 -45h90v-90h-90v90zM205 -45h90v-90h-90v90zM305 -45h90v-90h-90v90z" />
+d="M105 555h90v-90h-90v90zM205 555h90v-90h-90v90zM305 555h90v-90h-90v90zM5 455h90v-90h-90v90zM405 455h90v-90h-90v90zM5 355h90v-90h-90v90zM305 355h90v-90h-90v90zM405 355h90v-90h-90v90zM5 255h90v-90h-90v90zM205 255h90v-90h-90v90zM405 255h90v-90h-90v90z
+M5 155h90v-90h-90v90zM105 155h90v-90h-90v90zM405 155h90v-90h-90v90zM5 55h90v-90h-90v90zM405 55h90v-90h-90v90zM105 -45h90v-90h-90v90zM205 -45h90v-90h-90v90zM305 -45h90v-90h-90v90z" />
     <glyph glyph-name="one" unicode="1" 
 d="M205 555h90v-90h-90v90zM105 455h90v-90h-90v90zM205 455h90v-90h-90v90zM205 355h90v-90h-90v90zM205 255h90v-90h-90v90zM205 155h90v-90h-90v90zM205 55h90v-90h-90v90zM105 -45h90v-90h-90v90zM205 -45h90v-90h-90v90zM305 -45h90v-90h-90v90z" />
     <glyph glyph-name="two" unicode="2" 
