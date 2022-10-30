@@ -33,12 +33,19 @@
 <body>
 <div id="clock"></div>
 <script type="text/javascript">
-    window.setInterval('updateClock().then(r => r)', 10);
-
-    // Set font size from URL parameter
+    // Set font size, letter spacing and color from URL parameter
     document.body.onload = function() {
-        document.body.style.fontSize=window.location.href.split("?")[1].replace("font-size=","")+"em";
+        document.body.style.fontSize = getURLParameter("font-size") + "em";
+        document.body.style.letterSpacing = getURLParameter("letter-spacing") + "em";
+        document.body.style.color = "#" + getURLParameter("color");
     }
+
+    function getURLParameter(name) {
+        return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search) || [null, ''])[1].replace(/\+/g, '%20')) || null;
+    }
+</script>
+<script type="text/javascript">
+    window.setInterval('updateClock().then(r => r)', 10);
 
     async function updateClock() {
         const date = new Date();
