@@ -35,6 +35,11 @@
 <script type="text/javascript">
     window.setInterval('updateClock().then(r => r)', 10);
 
+    // Set font size from URL parameter
+    document.body.onload = function() {
+        document.body.style.fontSize=window.location.href.split("?")[1].replace("font-size=","")+"em";
+    }
+
     async function updateClock() {
         const date = new Date();
         document.getElementById('clock').innerHTML = [
