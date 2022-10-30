@@ -9,5 +9,5 @@ Keep in mind though, that showing this on a display for long amounts of time can
 ## Settings
 You can modify the default font size, letter spacing and color via URL parameters. The default configuration would be the following:
 ```
-http://.../?font-size=3.25&letter-spacing=0.16&color=96c6a9
+https://.../?font-size=3.25&letter-spacing=0.16&color=96c6a9
 ```
