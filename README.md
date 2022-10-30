@@ -7,7 +7,10 @@ By using a HTML to wallpaper/screensaver program, it's possible to use this as y
 Keep in mind though, that showing this on a display for long amounts of time can cause [Screen burn-in](https://en.wikipedia.org/wiki/Screen_burn-in) or [Image persistence](https://en.wikipedia.org/wiki/Image_persistence) depending on what display you use. Ironically, screensavers were supposed to "save" screens from Screen burn-in and not cause it 😅
 
 ## Settings
-You can modify the default font size, letter spacing and color via URL parameters. The default configuration would be the following:
-```
-https://.../?font-size=3.25&letter-spacing=0.16&color=96c6a9
-```
+You can modify the style via a query string.
+| Name    | Default Value | Units     |
+|---------|---------------|-----------|
+| size    | 3.25          | em        |
+| spacing | 0.16          | em        |
+| color   | 96c6a9        | Hex Color |
+| bg      | 111           | Hex Color |
