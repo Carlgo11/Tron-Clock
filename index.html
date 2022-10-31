@@ -34,10 +34,11 @@
 <div id="clock"></div>
 <script type="text/javascript">
     window.setInterval('updateClock().then(r => r)', 10);
+    const clock = document.getElementById('clock');
 
     async function updateClock() {
         const date = new Date();
-        document.getElementById('clock').innerHTML = [
+        clock.innerHTML = [
             parse(date.getFullYear().toString().slice(2, 4)),
             parse(date.getMonth() + 1),
             parse(date.getDate()),
@@ -51,6 +52,17 @@
     function parse(value) {
         // Add a leading zero to numbers less than ten.
         return value.toString().padStart(2, '0');
+    }
+
+    const params = new Proxy(new URLSearchParams(window.location.search), {
+        get: (searchParams, prop) => searchParams.get(prop),
+    });
+
+    window.onload = () => {
+        if (params.size) clock.style.fontSize = `${params.size}em`
+        if (params.spacing) clock.style.letterSpacing = `${params.spacing}em`
+        if (params.color) clock.style.color = `#${params.color}`
+        if (params.bg) document.body.style.backgroundColor = `#${params.bg}`
     }
 </script>
 </body>
